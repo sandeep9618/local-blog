@@ -1,0 +1,25 @@
+.containers {
+  background-color: #bbe7ed;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.cards-header {
+  font-size: 25px;
+}
+.card {
+  /* width: 100%; */
+  height: 100%;
+  background-color: white;
+  border-radius: 15px;
+  padding: 20px;
+  padding-bottom: 0px;
+}
+.card > h1 {
+  font-size: 20px;
+}
+.card p {
+  font-size: 15px;
+  font-weight: 500;
+}
