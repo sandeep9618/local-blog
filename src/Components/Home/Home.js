@@ -1,13 +1,11 @@
 import React from "react";
 import headimage from "../../Assets/blogsImage.jpg";
 import "./Home.css";
-import { Button } from "@mui/material";
-import { Icon } from "@iconify-icon/react/dist/iconify.js";
 import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
-    <div style={{ backgroundColor: "orange" }}>
+    <div className="container">
       <div>
         <img className="home-main-image" src={headimage} alt="image1280×1920" />
         <div className="home-cards-section">
